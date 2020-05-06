@@ -107,9 +107,7 @@ root of your Apache Tomcat server.
 
 16. Update DB connection credentials: ematchConstStruct.java --> it contains all the system values
 
-17. <pre> <td><a href="/z_x3/servlets/jobSearch.html">Search</td> </pre> 
-
-18. Full Servlet + JSP tutorial on my channel:   https://youtu.be/XL0cQ_s0hSU 
+17. Full Servlet + JSP tutorial on my channel:   https://youtu.be/XL0cQ_s0hSU 
 
 
 
