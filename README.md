@@ -99,8 +99,18 @@ root of your Apache Tomcat server.
 
 12. compile "javac *。java"
 
-13. chmod 744 *.class
+13. remember to change permission: chmod 744 *.class
 
 14. Debug with this page:  http://newfirebird.cs.txstate.edu:8080/z_x3/servlets/ematch.jsp  
 
-15. 
+15. Debug with Tomcat log: cd $CATALINA_HOME  -->  echo $CATALINA_HOME  --> /usr/local/apache-tomcat-7.0.26
+
+16. Update DB connection credentials: ematchConstStruct.java --> it contains all the system values
+
+17. <td><a href="/z_x3/servlets/jobSearch.html">Search</td> 
+
+18. Full Servlet + JSP tutorial on my channel: https://youtu.be/XL0cQ_s0hSU 
+
+
+
+
