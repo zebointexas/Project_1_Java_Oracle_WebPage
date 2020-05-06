@@ -81,7 +81,7 @@ root of your Apache Tomcat server.
    TomCat Java Servlet contain runs at port 8080. If your Linux login name is js1001, you should
    invoke the home page of your demonstration program using the URI:
 
-        http://newfirebird.cs.txstate.edu:8080/your_Linux_login_name/servlets/ematch.jsp
+        http://newfirebird.cs.txstate.edu:8080/MyNetID/servlets/ematch.jsp
 
 
 9. The following tables are needed to run the demo. The tables are the same as those used
