@@ -109,6 +109,11 @@ root of your Apache Tomcat server.
 
 17. Full Servlet + JSP tutorial on my channel:   https://youtu.be/XL0cQ_s0hSU 
 
+18. Jave Servlet Demo: http://newfirebird.cs.txstate.edu:8080/wp01/servlets/ematch.jsp 
+
+19. Pro*C/C++ Demo: http://newfirebird.cs.txstate.edu/~wp01/demo/proc/unix-version/html/index.html
+
+20. PHP Demo: http://newfirebird.cs.txstate.edu/~wp01/cs5334-php/index.php 
 
 
 
