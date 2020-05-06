@@ -85,103 +85,7 @@ root of your Apache Tomcat server.
 
 
 9. The following tables are needed to run the demo. The tables are the same as those used
-   in Pro C/C++ version:
-
-
-   (a) The 'job' table:
-
-     Name                                    Null?    Type
-     --------------------------------------- -------- -------------------
-
-     JOB_ID                                  NOT NULL VARCHAR2(10)
-     JOB_TYPE                                         VARCHAR2(40)
-     JOB_TITLE                                        VARCHAR2(50)
-     SPECIALIZATION                                   VARCHAR2(50)
-     COUNTRY_CODE                                     NUMBER(3)
-     REGION_NAME                                      VARCHAR2(30)
-     STATE_NAME                                       VARCHAR2(20)
-     LOCATION                                         VARCHAR2(30)
-     MIN_SALARY                                       NUMBER(9)
-     MAX_SALARY                                       NUMBER(9)
-     COMPANY_NAME                                     VARCHAR2(50)
-     START_DATE                                       VARCHAR2(20)
-     REFERENCE_NUM                                    VARCHAR2(10)
-     CONTACT_PERSON                                   VARCHAR2(50)
-     DESCRIPTION                                      VARCHAR2(4000)
-     QUALIFICATION                                    VARCHAR2(2000)
-
-   (b) The 'member' table:
-     Name                                 Null?    Type
-     ------------------------------------ -------- ----------------------------
-
-     LOGIN_ID                             NOT NULL VARCHAR2(20)
-     FIRST_NAME                           NOT NULL VARCHAR2(20)
-     MID_I_NAME                                    VARCHAR2(20)
-     LAST_NAME                            NOT NULL VARCHAR2(20)
-     SPECIALIZATION                       NOT NULL VARCHAR2(50)
-     EMAIL                                NOT NULL VARCHAR2(50)
-     PHONE                                         VARCHAR2(20)
-     FAX                                           VARCHAR2(20)
-     WEB_URL                                       VARCHAR2(50)
-     CURRENT_COMPANY                               VARCHAR2(30)
-     CURRENT_JOB_TITLE                    NOT NULL VARCHAR2(50)
-     CURRENT_JOB_LOCATION                 NOT NULL VARCHAR2(30)
-     CURRENT_JOB_LOCATION_CODE            NOT NULL NUMBER(1)
-     YEAR_OF_EXP                          NOT NULL NUMBER(2)
-     DEGREE                               NOT NULL NUMBER(1)
-     DESIRED_JOB_1                                 VARCHAR2(50)
-     DESIRED_JOB_2                                 VARCHAR2(50)
-     DESIRED_JOB_3                                 VARCHAR2(50)
-     DESIRED_SALARY                                NUMBER(9)
-     DESIRED_JOB_LOCATION                          VARCHAR2(30)
-     DESIRED_JOB_LOCATION_CODE                     NUMBER(1)
-     SPECIAL_TALENTS                               VARCHAR2(50)
-     RESUME                                   VARCHAR2(4000)
-
-   (c) The 'c_g' table:
-     Name                                 Null?    Type
-     ------------------------------------ -------- -------------------
-
-     LOGIN_ID                             NOT NULL VARCHAR2(20)
-     FIRST_NAME                           NOT NULL VARCHAR2(20)
-     MID_I_NAME                                    VARCHAR2(20)
-     LAST_NAME                            NOT NULL VARCHAR2(20)
-     MAJOR                                NOT NULL VARCHAR2(50)
-     EMAIL                                NOT NULL VARCHAR2(50)
-     PHONE                                         VARCHAR2(20)
-     FAX                                           VARCHAR2(20)
-     WEB_URL                                       VARCHAR2(50)
-     COLLEGE_NAME                         NOT NULL VARCHAR2(30)
-     COLLEGE_CITY                                  VARCHAR2(30)
-     COLLEGE_STATE                                 VARCHAR2(30)
-     EXPECTED_DEGREE                      NOT NULL NUMBER(1)
-     EXPECTED_DEGREE_DATE                 NOT NULL DATE
-     EXPECTED_MIN_SALARY                           NUMBER(9)
-     DESIRED_JOB_LOCATION                          VARCHAR2(30)
-     DESIRED_JOB_LOCATION_CODE                     NUMBER(1)
-     SPECIAL_TALENTS                               VARCHAR2(50)
-     RESUME                                        VARCHAR2(4000)
-
-   (d) The 'employer' table:
-
-     Name                                 Null?    Type
-     ------------------------------------ -------- ---------------
-
-     EMP_ID                               NOT NULL VARCHAR2(20)
-     COMPANY_NAME                         NOT NULL VARCHAR2(50)
-     CONTACT_PERSON                                VARCHAR2(50)
-     EMAIL                                         VARCHAR2(50)
-     PHONE                                         VARCHAR2(15)
-     FAX                                           VARCHAR2(15)
-     PROFILE                                       VARCHAR2(4000)
-     PASSWORD                                      VARCHAR2(20)
-
-   (e) The 'job_ids' table:
-
-     Name                                 Null?    Type
-     --------------------------------------------- ----------
-
-     JOB_ID                                        NUMBER(9)
+   in Pro C/C++ version.
 
 
 10. Last, but not the least, if you change your application (recompiled a JAVA file or modified
@@ -190,3 +94,13 @@ root of your Apache Tomcat server.
     % touch web.xml
 
     where the web.xml file is the one inside your WEB-INF sub-directory, to make the changes effective.
+
+11. remember to remove all classes before compilation "rm -f *.class" 
+
+12. compile "javac *。java"
+
+13. chmod 744 *.class
+
+14. Debug with this page:  http://newfirebird.cs.txstate.edu:8080/z_x3/servlets/ematch.jsp  
+
+15. 
