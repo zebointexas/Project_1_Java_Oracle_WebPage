@@ -97,7 +97,7 @@ root of your Apache Tomcat server.
 
 11. remember to remove all classes before compilation "rm -f *.class" 
 
-12. compile "javac *。java"
+12. compile "javac *.java"
 
 13. remember to change permission: chmod 744 *.class
 
