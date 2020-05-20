@@ -1,6 +1,6 @@
 # Project_1_Java_Oracle_WebPage
 
-      http://newfirebird.cs.txstate.edu:8080/z_x3/servlets/ematch.jsp
+http://newfirebird.cs.txstate.edu:8080/z_x3/servlets/ematch.jsp
 
 In the following, I'll use the environment $CATALINA_HOME to refer the
 root of your Apache Tomcat server.
